@@ -1,0 +1,77 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Facebook background color */
+    color: #000; /* Facebook text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3b5998; /* Facebook header background color */
+    color: #fff; /* Facebook header text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #3b5998; /* Facebook navigation bar background color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Facebook navigation link text color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #e9ebee; /* Facebook navigation link text color on hover */
+  }
+  
+  .about, .course-details {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #000; /* Heading text color */
+  }
+  
+  button {
+    background-color: #4267B2; /* Facebook button background color */
+    color: #fff; /* Facebook button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #385898; /* Darker Facebook button background color on hover */
+  }
+  
+  footer {
+    background-color: #3b5998; /* Facebook footer background color */
+    color: #fff; /* Facebook footer text color */
+    text-align: center;
+    padding: 10px;
+  }
+  
